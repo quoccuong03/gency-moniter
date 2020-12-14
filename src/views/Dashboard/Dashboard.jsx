@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 // react plugin for creating charts
 import ChartistGraph from "react-chartist";
@@ -62,7 +62,7 @@ const options = {
 
 const events = {
   select: function (event) {
-    var { nodes, edges } = event;
+    // var { nodes, edges } = event;
   }
 };
 class Dashboard extends React.Component {
