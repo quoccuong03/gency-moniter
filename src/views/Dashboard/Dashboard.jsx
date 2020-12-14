@@ -303,7 +303,6 @@ class Dashboard extends React.Component {
                     labels: [
                       'Used',
                       'Free',
-
                     ],
                     datasets: [{
                       data: [item.disk.used, item.disk.free],
