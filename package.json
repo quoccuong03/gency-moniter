@@ -1,5 +1,5 @@
 {
-  "name": "health-dashboard",
+  "name": "gency-moniter",
   "version": "0.0.1",
   "description": "A dashboard for health data visualization.",
   "private": true,
@@ -40,10 +40,10 @@
   },
   "author": "Rodrigo Mantica",
   "license": "MIT",
-  "homepage": "https://manticarodrigo.github.io/health-dashboard/",
+  "homepage": "https://manticarodrigo.github.io/gency-moniter/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manticarodrigo/health-dashboard.git"
+    "url": "git+https://github.com/manticarodrigo/gency-moniter.git"
   },
   "optionalDependencies": {
     "babel-eslint": "^7.2.3",
