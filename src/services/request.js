@@ -16,7 +16,6 @@ function send({ method = 'get', path, data = null, query = null, headers = {}, a
     if (newUrl) {
       url = newUrl
     }
-
     axios({ method, url, data, headers })
       .then(result => {
         const data = result.data
