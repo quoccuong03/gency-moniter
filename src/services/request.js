@@ -1,8 +1,8 @@
 import axios from 'axios'
 
-import {
-  getQueryString,
-} from '../helpers/common'
+// import {
+//   getQueryString,
+// } from '../helpers/common'
 // import {
 //   message
 // } from 'antd'
@@ -11,7 +11,8 @@ import constants from '../helpers/constants'
 const ENDPOINT = constants.ENDPOINT
 function send({ method = 'get', path, data = null, query = null, headers = {}, allowToken = true, newUrl }) {
   return new Promise(resolve => {
-    let url = `${ENDPOINT}${path}${getQueryString(query)}`
+    // ${getQueryString(query)}
+    let url = `${ENDPOINT}${path}`
     if (newUrl) {
       url = newUrl
     }
