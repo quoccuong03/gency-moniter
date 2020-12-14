@@ -70,6 +70,9 @@ const roseBoxShadow = {
     "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4)"
 };
 
+const blankBoxShadow = {
+  boxShadow: "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgb(255 255 255)"
+}
 const warningCardHeader = {
   background: "linear-gradient(60deg, #ffa726, #fb8c00)",
   ...warningBoxShadow
@@ -94,6 +97,11 @@ const roseCardHeader = {
   background: "linear-gradient(60deg, #ec407a, #d81b60)",
   ...roseBoxShadow
 };
+const blankCardHeader = {
+  background: "linear-gradient(60deg, #fff, #fff)",
+  ...blankBoxShadow
+};
+
 
 const cardActions = {
   margin: "0 20px 10px",
@@ -189,5 +197,6 @@ export {
   title,
   cardTitle,
   cardSubtitle,
-  cardLink
+  cardLink,
+  blankCardHeader
 };

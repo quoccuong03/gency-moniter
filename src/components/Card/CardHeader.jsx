@@ -15,7 +15,7 @@ function CardHeader({ ...props }) {
     classes,
     className,
     children,
-    color,
+    color = "blank",
     plain,
     stats,
     icon,
@@ -29,6 +29,7 @@ function CardHeader({ ...props }) {
     [classes.cardHeaderIcon]: icon,
     [className]: className !== undefined
   });
+
   return (
     <div className={cardHeaderClasses} {...rest}>
       {children}
@@ -45,7 +46,8 @@ CardHeader.propTypes = {
     "danger",
     "info",
     "primary",
-    "rose"
+    "rose",
+    "blank"
   ]),
   plain: PropTypes.bool,
   stats: PropTypes.bool,
